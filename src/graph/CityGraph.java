@@ -50,4 +50,12 @@ public class CityGraph {
         return allEdges;
     }
 
+
+    public CityGraph buildTranspose() {
+        CityGraph reversed = new CityGraph(verticesCount, true);
+        for (RoadEdge e : allEdges) {
+            reversed.addRoad(e.v, e.u, e.weight);
+        }
+        return reversed;
+    }
 }
