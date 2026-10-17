@@ -1,0 +1,19 @@
+Algorithm,Size,Vertices (V),Edges (E),Execution Time (ms),Comparisons / Operations,Additional Info
+Kruskal MST,Small,10,30,0.0234,107,DSU Ops: 127
+Prim MST,Small,10,30,0.0379,144,Weight Match: true
+Kruskal MST,Medium,100,500,0.4664,3827,DSU Ops: 1675
+Prim MST,Medium,100,500,0.5064,3742,Weight Match: true
+Kruskal MST,Large,1000,5000,1.3558,50369,DSU Ops: 36442
+Prim MST,Large,1000,5000,1.1666,85148,Weight Match: true
+Topological Sort (DAG),Small,10,30,0.0173,-,-
+Topological Sort (Cyclic),Small,10,30,0.0021,-,Cycle Detected: true
+Kosaraju SCC,Small,10,30,0.0260,-,Components: 1
+Dijkstra SP,Small,10,30,0.0367,11,Relaxations: 11
+Topological Sort (DAG),Medium,100,500,0.0428,-,-
+Topological Sort (Cyclic),Medium,100,500,0.0028,-,Cycle Detected: true
+Kosaraju SCC,Medium,100,500,0.1418,-,Components: 2
+Dijkstra SP,Medium,100,500,0.2042,149,Relaxations: 149
+Topological Sort (DAG),Large,1000,5000,0.2531,-,-
+Topological Sort (Cyclic),Large,1000,5000,0.0030,-,Cycle Detected: true
+Kosaraju SCC,Large,1000,5000,0.7456,-,Components: 18
+Dijkstra SP,Large,1000,5000,0.8440,1418,Relaxations: 1418
